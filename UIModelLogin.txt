@@ -1,0 +1,1467 @@
+﻿
+  	struct COW_UIModelLiveTv_o* m_ModelLiveTv;
+  	struct COW_UIModelShoppingMall_o* m_ModelShopppingMall;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UIModelCDNAd_o* m_ModelCDNAd;
+  	struct COW_UIModelNewPlayerUnlockFeature_o* m_ModelNewPlayerUnlockFeature;
+  	struct COW_UIModelSparkPet_o* m_ModelSparkPet;
+  	int32_t m_ActivityCategory;
+  	struct System_String_o* m_EventsIconDefaultName;
+  	struct UnityEngine_GameObject_o* m_EventVFX;
+  	struct System_String_o* m_EventAnim;
+  	bool NeedShowVeteranIcon;
+  	struct System_String_o* EventsIconName;
+  	struct System_String_o* m_BuildIcon;
+  	struct UnityEngine_Color32_o m_StoreIconDefaultColor;
+  	struct UnityEngine_Color32_o m_GachaIconDefaultColor;
+  	struct UnityEngine_Color32_o m_DrawShopIconDefaultColor;
+  	struct UnityEngine_Color32_o m_EventIconDefaultColor;
+  	struct UnityEngine_Color32_o m_StoreLabelDefaultColor;
+  	struct COW_UIModelSetting_o* m_ModelSetting;
+  	struct COW_UIModelOTP_o* m_ModelOTP;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UICommonGuideController_o* m_CommonGuideCtrl;
+  	struct COW_UILobbyV2IPMusicController_o* m_IPMusicCtrl;
+  	struct COW_UIFFLogoController_o* m_UIFFLogoCtrl;
+  	bool m_HasShowLoginExceptionRemind;
+  	struct System_Collections_Generic_Dictionary_uint__bool__o* m_CollaborateActivityIdSet;
+  	bool m_FinishCheckCollaborateActivity;
+  	struct UnityEngine_Vector3_o batteryLevelScale;
+  	struct UnityEngine_Color_o BATTERY_LEVEL_COLOR_LOW;
+  	struct UnityEngine_Color_o BATTERY_LEVEL_COLOR_MEDIUM;
+  	struct UnityEngine_Color_o BATTERY_LEVEL_COLOR_HIGH;
+  	struct UnityEngine_Color_o BATTERY_LEVEL_COLOR_CHARGING;
+  	struct COW_UITipsNormalController_o* m_MailTipsCtrl;
+  	struct COW_UITipsNormalController_o* m_FriendTipsCtrl;
+  	struct COW_UITipsNormalController_o* m_ClanTipsCtrl;
+  	struct COW_UITipsNormalController_o* m_SettingTipsCtrl;
+  struct COW_UIBindAccountController_Fields : GCommon_UIPopupWindowController_Fields {
+  	struct COW_UIBindAccountView_o* m_View;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct System_Collections_Generic_Dictionary_int__bool__o* m_DicPlatformShowBig;
+  	struct System_Collections_Generic_Dictionary_int__bool__o* m_PlatformSupportSignin;
+  	struct System_Action_o* m_CloseAction;
+  };
+  struct COW_UIBindAccountController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  struct COW_UIOTPSwapRebindController_Fields : GCommon_UIBaseController_Fields {
+  	struct COW_UIOTPSwapRebindView_o* m_View;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UIModelOTP_o* m_ModelOTP;
+  	bool IsSendOTPChangeBindLog;
+  	struct System_Collections_Generic_Dictionary_int__bool__o* m_PlatformSupportSignin;
+  };
+  struct COW_UIOTPSwapRebindController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  struct COW_UIOTPSwapRebindItemController_Fields : GCommon_UIBaseController_Fields {
+  	struct COW_UIOTPSwapRebindItemView_o* m_View;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UIModelOTP_o* m_ModelOTP;
+  };
+  struct COW_UIOTPSwapRebindItemController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  	VirtualInvokeData _10_unknown;
+  	VirtualInvokeData _11_KillCamRecyleDontDestroy;
+  	struct System_Collections_Generic_List_PopMenuData__o* m_LanDataList;
+  	struct System_Collections_Generic_List_UISettingAccountBtnController__o* m_AccountBtnList;
+> 	struct COW_UIModelLogin_o* m_LoginModel;
+  	struct COW_BasicSettingInfo_o* m_SettingInfo;
+  	struct COW_UISelectLanguageController_o* m_UISelectLanguageController;
+  	struct System_Collections_Generic_Dictionary_int__bool__o* m_PlatformSupportSignin;
+  	bool m_NeedRefreshBtnState;
+  	struct COW_UIModelUser_o* m_UserModel;
+  	struct COW_UIModelAntiAddiction_o* m_AntiAddictionModel;
+  	struct COW_UIModelOTP_o* m_OTPModel;
+  	struct COW_UIModelProfile_o* m_ModelProfile;
+  	struct COW_UIModelWeaponPower_o* m_ModelWeaponPower;
+  	struct COW_UIModelLocalization_o* m_ModelLocalization;
+  	bool m_OccupationShow;
+  	uint32_t m_LeftTimeDelayCallId;
+  	uint32_t m_UnbindCoolDownDelayCallId;
+  	bool m_SocialPrivacyShow;
+  	bool m_SocialPrivacyShowClick;
+  	struct System_String_o* m_InfoUrl;
+  	struct COW_UICountDownController_o* m_CountDownCtrl;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UIModelOTP_o* m_ModelOTP;
+  	uint64_t m_AccountId;
+  	uint32_t m_Level;
+  	struct System_String_o* m_Region;
+  	int32_t m_ReasonID;
+  	uint32_t m_ExpireDuration;
+  	bool m_IsGuestAccountDeleteEnabled;
+  	struct System_String_o* m_TopNoticeText;
+  	bool m_HasLoggedAppealViaRecheck;
+  };
+  struct COW_UIAccountForbiddenPopWndController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	struct COW_UIAccountManagementPopWndView_o* m_View;
+  	struct COW_UIModelSetting_o* m_Modelsetting;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct System_Collections_Generic_List_UIAccountManagementItemController__o* m_Ctrls;
+  };
+  struct COW_UIAccountManagementPopWndController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  	VirtualInvokeData _10_unknown;
+  	VirtualInvokeData _11_KillCamRecyleDontDestroy;
+  	COW_UIDebugInfoController_Fields fields;
+  };
+> struct COW_UIDebugLoginController___c__DisplayClass12_0_Fields {
+  	struct System_Collections_Generic_List_ServerSettingsData__o* serverSettings;
+  };
+> struct COW_UIDebugLoginController___c__DisplayClass12_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIDebugLoginController___c__DisplayClass12_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIDebugLoginController___c__DisplayClass12_0_VTable vtable;
+  };
+> struct COW_UIDebugLoginController___c__DisplayClass12_0_o {
+> 	COW_UIDebugLoginController___c__DisplayClass12_0_c *klass;
+  	void *monitor;
+> 	COW_UIDebugLoginController___c__DisplayClass12_0_Fields fields;
+  };
+> struct COW_UIDebugLoginController_Fields : GCommon_UIPopupWindowController_Fields {
+  	struct COW_UIAccountIDNickNameLoginWindowView_o* m_View;
+  	struct proto_Login_CHMELGCOIGN_o* m_UserData;
+  	struct COW_RenameCostData_o* m_CostData;
+  	bool m_HasRequestedLogin;
+  };
+> struct COW_UIDebugLoginController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  	VirtualInvokeData _10_unknown;
+  	VirtualInvokeData _11_KillCamRecyleDontDestroy;
+  	VirtualInvokeData _12_RecyleDontDestroy;
+  	VirtualInvokeData _13_IsSuspendingEnabled;
+  	VirtualInvokeData _14_Awake;
+  	VirtualInvokeData _76_GetInterestedPropID;
+  };
+> struct COW_UIDebugLoginController_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIDebugLoginController_VTable vtable;
+  };
+> struct COW_UIDebugLoginController_o {
+> 	COW_UIDebugLoginController_c *klass;
+  	void *monitor;
+> 	COW_UIDebugLoginController_Fields fields;
+  };
+> struct COW_UIDebugPlatformLoginController_Fields : GCommon_UIPopupWindowController_Fields {
+  	struct COW_UIAccountIDNickNameLoginWindowView_o* m_View;
+  };
+> struct COW_UIDebugPlatformLoginController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  	VirtualInvokeData _10_unknown;
+  	VirtualInvokeData _11_KillCamRecyleDontDestroy;
+  	VirtualInvokeData _12_RecyleDontDestroy;
+  	VirtualInvokeData _13_IsSuspendingEnabled;
+  	VirtualInvokeData _14_Awake;
+  	VirtualInvokeData _74_AfterPopupGlassBgReady;
+  };
+> struct COW_UIDebugPlatformLoginController_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIDebugPlatformLoginController_VTable vtable;
+  };
+> struct COW_UIDebugPlatformLoginController_o {
+> 	COW_UIDebugPlatformLoginController_c *klass;
+  	void *monitor;
+> 	COW_UIDebugPlatformLoginController_Fields fields;
+  };
+  struct COW_UIDebugUploadder___c__DisplayClass12_0_Fields {
+  	struct COW_UIDebugUploadder_o* __4__this;
+  	struct System_Byte_array* data;
+  	bool showTips;
+  	bool isAutoUpload;
+  };
+  struct COW_UIDebugUploadder___c__DisplayClass12_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+  struct COW_UIDebugUploadder___c__DisplayClass12_0_c {
+  	Il2CppClass_1 _1;
+  	bool OptionAdvertisement;
+  	struct COW_UIDMAInquiryWndController_WndInfo_o* m_Config;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_DMAPolicyLinkData_o* m_DMAPolicyLinkData;
+  };
+  struct COW_UIDMAInquiryWndController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  	VirtualInvokeData _10_unknown;
+  	VirtualInvokeData _11_KillCamRecyleDontDestroy;
+  	COW_UILoginButton_Fields fields;
+  };
+> struct COW_UILoginController_RegFormObserverVN___c__DisplayClass6_0_Fields {
+> 	struct COW_UILoginController_RegFormObserverVN_o* __4__this;
+  	struct GarenaMSDK_RegFormCallback_Result_o* ret;
+  };
+> struct COW_UILoginController_RegFormObserverVN___c__DisplayClass6_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UILoginController_RegFormObserverVN___c__DisplayClass6_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController_RegFormObserverVN___c__DisplayClass6_0_VTable vtable;
+  };
+> struct COW_UILoginController_RegFormObserverVN___c__DisplayClass6_0_o {
+> 	COW_UILoginController_RegFormObserverVN___c__DisplayClass6_0_c *klass;
+  	void *monitor;
+> 	COW_UILoginController_RegFormObserverVN___c__DisplayClass6_0_Fields fields;
+  };
+> struct COW_UILoginController_RegFormObserverVN_Fields {
+> 	struct COW_UILoginController_o* _Ctrl;
+  	bool _Shown;
+  	bool _Closed;
+  	bool _Completed;
+  };
+> struct COW_UILoginController_RegFormObserverVN_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_GarenaMSDK_RegFormCallback_IRegFormObserver_OnCompleted;
+  	VirtualInvokeData _5_GarenaMSDK_RegFormCallback_IRegFormObserver_OnShown;
+  	VirtualInvokeData _6_GarenaMSDK_RegFormCallback_IRegFormObserver_OnClosed;
+  	VirtualInvokeData _7_OnGetUserVerificationInfo;
+  };
+> struct COW_UILoginController_RegFormObserverVN_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController_RegFormObserverVN_VTable vtable;
+  };
+> struct COW_UILoginController_RegFormObserverVN_o {
+> 	COW_UILoginController_RegFormObserverVN_c *klass;
+  	void *monitor;
+> 	COW_UILoginController_RegFormObserverVN_Fields fields;
+  };
+> struct COW_UILoginController___c_Fields {
+  };
+> struct COW_UILoginController___c_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UILoginController___c_c {
+  	Il2CppClass_1 _1;
+> 	struct COW_UILoginController___c_StaticFields* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController___c_VTable vtable;
+  };
+> struct COW_UILoginController___c_o {
+> 	COW_UILoginController___c_c *klass;
+  	void *monitor;
+> 	COW_UILoginController___c_Fields fields;
+  };
+> struct COW_UILoginController___c_StaticFields {
+> 	struct COW_UILoginController___c_o* __9;
+  	struct System_Action_o* __9__64_0;
+  	struct System_Action_o* __9__67_0;
+  	struct System_Action_o* __9__99_0;
+  };
+> struct COW_UILoginController___c__DisplayClass42_0_Fields {
+> 	struct COW_UILoginController_o* __4__this;
+  	int32_t platformType;
+  };
+> struct COW_UILoginController___c__DisplayClass42_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UILoginController___c__DisplayClass42_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController___c__DisplayClass42_0_VTable vtable;
+  };
+> struct COW_UILoginController___c__DisplayClass42_0_o {
+> 	COW_UILoginController___c__DisplayClass42_0_c *klass;
+  	void *monitor;
+> 	COW_UILoginController___c__DisplayClass42_0_Fields fields;
+  };
+> struct COW_UILoginController___c__DisplayClass84_0_Fields {
+> 	struct COW_UILoginController_o* __4__this;
+  	struct System_String_o* customerServiceUrl;
+  };
+> struct COW_UILoginController___c__DisplayClass84_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UILoginController___c__DisplayClass84_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController___c__DisplayClass84_0_VTable vtable;
+  };
+> struct COW_UILoginController___c__DisplayClass84_0_o {
+> 	COW_UILoginController___c__DisplayClass84_0_c *klass;
+  	void *monitor;
+> 	COW_UILoginController___c__DisplayClass84_0_Fields fields;
+  };
+> struct COW_UILoginController___c__DisplayClass92_0_Fields {
+  	struct System_Action_o* callback;
+  };
+> struct COW_UILoginController___c__DisplayClass92_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UILoginController___c__DisplayClass92_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController___c__DisplayClass92_0_VTable vtable;
+  };
+> struct COW_UILoginController___c__DisplayClass92_0_o {
+> 	COW_UILoginController___c__DisplayClass92_0_c *klass;
+  	void *monitor;
+> 	COW_UILoginController___c__DisplayClass92_0_Fields fields;
+  };
+> struct COW_UILoginController__DelayCreateUI_d__28_Fields {
+  	int32_t __1__state;
+  	Il2CppObject* __2__current;
+> 	struct COW_UILoginController_o* __4__this;
+  };
+> struct COW_UILoginController__DelayCreateUI_d__28_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_System_Collections_Generic_IEnumerator_System_Object__get_Current;
+  	VirtualInvokeData _5_System_IDisposable_Dispose;
+  	VirtualInvokeData _6_MoveNext;
+  	VirtualInvokeData _7_System_Collections_IEnumerator_get_Current;
+  	VirtualInvokeData _8_System_Collections_IEnumerator_Reset;
+  };
+> struct COW_UILoginController__DelayCreateUI_d__28_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController__DelayCreateUI_d__28_VTable vtable;
+  };
+> struct COW_UILoginController__DelayCreateUI_d__28_o {
+> 	COW_UILoginController__DelayCreateUI_d__28_c *klass;
+  	void *monitor;
+> 	COW_UILoginController__DelayCreateUI_d__28_Fields fields;
+  };
+> struct COW_UILoginController__SetButtonCoolDown_d__90_Fields {
+  	int32_t __1__state;
+  	Il2CppObject* __2__current;
+  	float delayTime;
+> 	struct COW_UILoginController_o* __4__this;
+  	struct UIButton_o* btn;
+  };
+> struct COW_UILoginController__SetButtonCoolDown_d__90_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_System_Collections_Generic_IEnumerator_System_Object__get_Current;
+  	VirtualInvokeData _5_System_IDisposable_Dispose;
+  	VirtualInvokeData _6_MoveNext;
+  	VirtualInvokeData _7_System_Collections_IEnumerator_get_Current;
+  	VirtualInvokeData _8_System_Collections_IEnumerator_Reset;
+  };
+> struct COW_UILoginController__SetButtonCoolDown_d__90_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController__SetButtonCoolDown_d__90_VTable vtable;
+  };
+> struct COW_UILoginController__SetButtonCoolDown_d__90_o {
+> 	COW_UILoginController__SetButtonCoolDown_d__90_c *klass;
+  	void *monitor;
+> 	COW_UILoginController__SetButtonCoolDown_d__90_Fields fields;
+  };
+> struct COW_UILoginController__WaitPreloadFinishGotoLobby_d__72_Fields {
+  	int32_t __1__state;
+  	Il2CppObject* __2__current;
+> 	struct COW_UILoginController_o* __4__this;
+  };
+> struct COW_UILoginController__WaitPreloadFinishGotoLobby_d__72_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_System_Collections_Generic_IEnumerator_System_Object__get_Current;
+  	VirtualInvokeData _5_System_IDisposable_Dispose;
+  	VirtualInvokeData _6_MoveNext;
+  	VirtualInvokeData _7_System_Collections_IEnumerator_get_Current;
+  	VirtualInvokeData _8_System_Collections_IEnumerator_Reset;
+  };
+> struct COW_UILoginController__WaitPreloadFinishGotoLobby_d__72_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController__WaitPreloadFinishGotoLobby_d__72_VTable vtable;
+  };
+> struct COW_UILoginController__WaitPreloadFinishGotoLobby_d__72_o {
+> 	COW_UILoginController__WaitPreloadFinishGotoLobby_d__72_c *klass;
+  	void *monitor;
+> 	COW_UILoginController__WaitPreloadFinishGotoLobby_d__72_Fields fields;
+  };
+> struct COW_UILoginController_Fields : GCommon_UIBaseController_Fields {
+  	struct COW_UILoginView_o* m_View;
+  	struct COW_UIVersionController_o* m_UIVersion;
+  	bool m_platfromLogined;
+  	struct COW_UIPopupMessageBoxController_o* m_MaintenanceMessageCtrl;
+  	struct UnityEngine_GameObject_o* m_SpineBG;
+  	struct GCommon_ResourceID_o m_CurrentSpineBGResID;
+  	bool m_GotoLobbyed;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UIModelOTP_o* m_ModelOTP;
+  	struct COW_UIModelAntiAddiction_o* m_ModelAntiAddiction;
+  	struct COW_UIRegisterController_o* m_CtrlRegister;
+  	struct COW_UILoginTrialInfoController_o* m_TrialInfoCtrl;
+  	struct COW_UILoginDebugController_o* m_DebugCtrl;
+  	struct COW_UILoginRegionInfoController_o* m_RegionInfoController;
+  	struct COW_UILoginSuccessInfoController_o* m_LoginSuccessInfoCtrl;
+  	struct COW_UILoginOptionalDownloadTipsController_o* m_OptionalDownloadTipsCtrl;
+  	struct COW_UILoginAgeTOSController_o* m_AgeTOSCtrl;
+  	struct COW_UIAntiAddictionBRLoginAgeTOSController_o* m_BRAgeTOSCtrl;
+  	struct COW_UILoginAccountRetrievalController_o* m_AccountRetrievalCtrl;
+  	struct COW_UILoginOfflinePlayController_o* m_OfflinePlayCtrl;
+  	struct System_Collections_Generic_List_UILoginButton__o* m_LoginButtons;
+  	bool _RetriedGuestRestore;
+> 	struct COW_UILoginController_RegFormObserverVN_o* _RegFormObserverVN;
+  	struct COW_UIWaitingForRequestController_o* m_WaitingController;
+  };
+> struct COW_UILoginController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  	VirtualInvokeData _10_unknown;
+  	VirtualInvokeData _11_KillCamRecyleDontDestroy;
+  	VirtualInvokeData _12_RecyleDontDestroy;
+  	VirtualInvokeData _13_IsSuspendingEnabled;
+  	VirtualInvokeData _14_Awake;
+  	VirtualInvokeData _55_GetInterestedPropID;
+  };
+> struct COW_UILoginController_c {
+  	Il2CppClass_1 _1;
+> 	struct COW_UILoginController_StaticFields* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UILoginController_VTable vtable;
+  };
+> struct COW_UILoginController_o {
+> 	COW_UILoginController_c *klass;
+  	void *monitor;
+> 	COW_UILoginController_Fields fields;
+  };
+> struct COW_UILoginController_StaticFields {
+  	bool s_IsFirstInit;
+  };
+  struct COW_UILoginDebugController_Fields : GCommon_UIBaseController_Fields {
+  	struct COW_UILoginDebugView_o* m_View;
+  };
+  struct COW_UILoginDebugController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  struct COW_UILoginQueueInfoPopupWndController_Fields : GCommon_UIPopupWindowController_Fields {
+  	struct COW_UILoginQueueInfoPopupWndView_o* m_View;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	uint32_t m_Hours;
+  	uint32_t m_Mins;
+  	uint32_t m_Secs;
+  	uint32_t m_RequestInterval;
+  	struct COW_CountDownConfig_o* m_Config;
+  	uint64_t m_StartCountDownTime;
+  	uint64_t m_TotalWaitSec;
+  };
+  struct COW_UILoginQueueInfoPopupWndController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	struct COW_UICreateCharacterController_o* m_CtrlCreateName;
+  	struct COW_UICheckIsNewbieOrVeteranController_o* m_CtrlCheckIsNewbieOrVerteran;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UIModelUser_o* m_modelUser;
+  	uint32_t m_DelayCallExitAnimFinish;
+  	uint32_t m_DelayCallShowBtnClose;
+  	float m_OpenCreateNameTime;
+  	uint64_t m_AccountId;
+  	bool IsDefaultChooseNewbie;
+  };
+  struct COW_UIRegisterController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  };
+  struct COW_UISettingAccountBtnController_Fields : GCommon_UIBaseController_Fields {
+> 	struct COW_UIModelLogin_o* m_LoginModel;
+  	int32_t m_Type;
+  	struct COW_UISettingAccountBtnView_o* m_View;
+  };
+  struct COW_UISettingAccountBtnController_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_unknown;
+  	VirtualInvokeData _5_unknown;
+  	VirtualInvokeData _6_unknown;
+  	VirtualInvokeData _7_unknown;
+  	VirtualInvokeData _8_unknown;
+  	VirtualInvokeData _9_unknown;
+  	VirtualInvokeData _10_unknown;
+  	bool m_DisableFriendSpectate;
+  	uint64_t m_StartShowTime;
+> 	struct COW_UIModelLogin_o* m_LoginModel;
+  	struct COW_UIModelSetting_o* m_ModelSetting;
+  	struct COW_UIModelOTP_o* m_ModelOTP;
+  	struct COW_EventLogger_EventAutoPickUpSettingChangeLog_o* m_AutoPickUpLog;
+  	struct COW_UIInGameSettingController_o* m_InGameCtrl;
+  	struct COW_UIDebugInfoController_o* m_debuginfoController;
+  	struct COW_UIBasicSettingController_o* m_BasicSettingController;
+  	struct COW_UISoundSettingController_o* m_SoundSettingController;
+  	struct COW_UINotificationSettingController_o* m_NotificationSettingController;
+  	struct COW_UIGraphicSettingController_o* m_GraphicSettingController;
+  	struct COW_UIUGCSettingController_o* m_UGCSettingController;
+  	struct COW_UIReplayKitSettingController_o* m_ReplayKitSettingController;
+  	struct COW_UIFPPSettingController_o* m_FPPSettingController;
+  	int32_t m_PreSettingType;
+  	struct COW_UINewKeyActionSettingController_o* m_KeyActionSettingController;
+  	struct COW_UISettingContentBase_o* m_CurrentShowContent;
+  };
+  struct COW_BlockLabelManager_Fields : GCommon_SingletonModule_BlockLabelManager__Fields {
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct System_String_o* m_SrcText;
+  	struct System_String_o* m_TrimText;
+  	struct System_String_o* m_Text;
+  	struct System_Collections_Generic_List_string__o* m_BlockPattern;
+  	struct System_String_o* m_SpecialBlockPattern;
+  	struct System_Text_RegularExpressions_Regex_o* m_Regex;
+  	struct System_Collections_Generic_HashSet_int__o* m_PhoneNumSet;
+  	struct System_Collections_Generic_List_string__o* m_ChatWebWhiteListLocal;
+  };
+  struct COW_BlockLabelManager_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_Init;
+  	struct System_Collections_Generic_List_uint__o* m_AlwaysDisplayProperty;
+  	struct System_Collections_Generic_List_uint__o* m_IceWallDisplayProperty;
+> 	struct COW_UIModelLogin_o* m_ModelLogin;
+  	struct COW_UIModelInventory_o* m_ModelInventory;
+  	struct COW_UIModelClan_o* m_ModelClan;
+  	struct COW_UIModelLadderMatch_o* m_ModelLadderMatch;
+  	struct COW_UIModelCSLadderMatch_o* m_ModelCSLadderMatch;
+  	struct COW_UIModelCollection_o* m_ModelCollection;
+  	struct COW_UIModelCSPeakTournamentLadderMatch_o* m_ModelCSPeakTournamentLadderMatch;
+  	struct COW_UIModelUser_o* m_ModelUser;
+  	struct System_Collections_Generic_List_ResourceID__o* m_resourceIDList;
+  };
+  struct COW_CollectionDataManager_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_Init;
+  	COW_UIModelLocalization_Fields fields;
+  };
+> struct COW_UIModelLogin_EPGSTokenSyncStates_Fields {
+  	int32_t value__;
+  };
+> struct COW_UIModelLogin_EPGSTokenSyncStates_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_CompareTo;
+  	VirtualInvokeData _5_ToString;
+  	VirtualInvokeData _6_GetTypeCode;
+  	VirtualInvokeData _7_System_IConvertible_ToBoolean;
+  	VirtualInvokeData _8_System_IConvertible_ToChar;
+  	VirtualInvokeData _9_System_IConvertible_ToSByte;
+  	VirtualInvokeData _10_System_IConvertible_ToByte;
+  	VirtualInvokeData _11_System_IConvertible_ToInt16;
+  	VirtualInvokeData _12_System_IConvertible_ToUInt16;
+  	VirtualInvokeData _13_System_IConvertible_ToInt32;
+  	VirtualInvokeData _14_System_IConvertible_ToUInt32;
+  	VirtualInvokeData _22_System_IConvertible_ToType;
+  };
+> struct COW_UIModelLogin_EPGSTokenSyncStates_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin_EPGSTokenSyncStates_VTable vtable;
+  };
+> struct COW_UIModelLogin_EPGSTokenSyncStates_o {
+> 	COW_UIModelLogin_EPGSTokenSyncStates_Fields fields;
+  };
+> struct COW_UIModelLogin_ServerStatusInfo_Fields {
+  	uint32_t code;
+  	struct System_String_o* billboard_msg;
+  };
+> struct COW_UIModelLogin_ServerStatusInfo_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin_ServerStatusInfo_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin_ServerStatusInfo_VTable vtable;
+  };
+> struct COW_UIModelLogin_ServerStatusInfo_o {
+> 	COW_UIModelLogin_ServerStatusInfo_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin_ServerStatusInfo_Fields fields;
+  };
+> struct COW_UIModelLogin_ELogoutType_Fields {
+  	int32_t value__;
+  };
+> struct COW_UIModelLogin_ELogoutType_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_CompareTo;
+  	VirtualInvokeData _5_ToString;
+  	VirtualInvokeData _6_GetTypeCode;
+  	VirtualInvokeData _7_System_IConvertible_ToBoolean;
+  	VirtualInvokeData _8_System_IConvertible_ToChar;
+  	VirtualInvokeData _9_System_IConvertible_ToSByte;
+  	VirtualInvokeData _10_System_IConvertible_ToByte;
+  	VirtualInvokeData _11_System_IConvertible_ToInt16;
+  	VirtualInvokeData _12_System_IConvertible_ToUInt16;
+  	VirtualInvokeData _13_System_IConvertible_ToInt32;
+  	VirtualInvokeData _14_System_IConvertible_ToUInt32;
+  	VirtualInvokeData _22_System_IConvertible_ToType;
+  };
+> struct COW_UIModelLogin_ELogoutType_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin_ELogoutType_VTable vtable;
+  };
+> struct COW_UIModelLogin_ELogoutType_o {
+> 	COW_UIModelLogin_ELogoutType_Fields fields;
+  };
+> struct COW_UIModelLogin___c_Fields {
+  };
+> struct COW_UIModelLogin___c_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c_c {
+  	Il2CppClass_1 _1;
+> 	struct COW_UIModelLogin___c_StaticFields* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c_VTable vtable;
+  };
+> struct COW_UIModelLogin___c_o {
+> 	COW_UIModelLogin___c_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c_Fields fields;
+  };
+> struct COW_UIModelLogin___c_StaticFields {
+> 	struct COW_UIModelLogin___c_o* __9;
+  	struct System_Action_HttpErrorCode__object__o* __9__129_0;
+  	struct GarenaMSDK_SDKLogin_SAFGuestCb_o* __9__139_0;
+  	struct System_Action_HttpErrorCode__object__o* __9__178_0;
+  	struct System_Action_o* __9__188_0;
+  	struct System_Predicate_AbTestChoice__o* __9__203_1;
+  	struct System_Action_MSDKResult__SDKOTP_MobileNumberBindInfo__o* __9__249_0;
+  	struct System_Predicate_CSVBaseData__o* __9__259_0;
+  	struct System_Predicate_CSVBaseData__o* __9__259_1;
+  	struct System_Action_o* __9__272_0;
+  	struct System_Action_o* __9__273_0;
+  	struct System_Action_o* __9__281_0;
+  	struct System_Predicate_DMAPolicyLinkData__o* __9__288_1;
+  	struct System_Action_o* __9__303_0;
+  	struct System_Action_o* __9__308_0;
+  };
+> struct COW_UIModelLogin___c__DisplayClass143_0_Fields {
+  	struct COW_UIPopupMessageBoxController_o* messageBox;
+  };
+> struct COW_UIModelLogin___c__DisplayClass143_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass143_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass143_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass143_0_o {
+> 	COW_UIModelLogin___c__DisplayClass143_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass143_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass144_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct GarenaMSDK_LoginResp_o* resp;
+  };
+> struct COW_UIModelLogin___c__DisplayClass144_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass144_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass144_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass144_0_o {
+> 	COW_UIModelLogin___c__DisplayClass144_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass144_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass160_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct System_String_o* msg;
+  };
+> struct COW_UIModelLogin___c__DisplayClass160_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass160_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass160_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass160_0_o {
+> 	COW_UIModelLogin___c__DisplayClass160_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass160_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass172_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct System_String_o* region;
+  };
+> struct COW_UIModelLogin___c__DisplayClass172_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass172_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass172_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass172_0_o {
+> 	COW_UIModelLogin___c__DisplayClass172_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass172_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass173_0_Fields {
+  	bool isBind;
+  };
+> struct COW_UIModelLogin___c__DisplayClass173_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass173_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass173_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass173_0_o {
+> 	COW_UIModelLogin___c__DisplayClass173_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass173_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass179_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	uint32_t avatar_id;
+  };
+> struct COW_UIModelLogin___c__DisplayClass179_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass179_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass179_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass179_0_o {
+> 	COW_UIModelLogin___c__DisplayClass179_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass179_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass181_0_Fields {
+  	int32_t newPlatform;
+> 	struct COW_UIModelLogin_o* __4__this;
+  };
+> struct COW_UIModelLogin___c__DisplayClass181_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass181_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass181_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass181_0_o {
+> 	COW_UIModelLogin___c__DisplayClass181_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass181_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass183_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	bool logoutSdk;
+  	int32_t type;
+  };
+> struct COW_UIModelLogin___c__DisplayClass183_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass183_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass183_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass183_0_o {
+> 	COW_UIModelLogin___c__DisplayClass183_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass183_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass197_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct proto_MajorLoginRes_o* majorRes;
+  };
+> struct COW_UIModelLogin___c__DisplayClass197_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass197_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass197_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass197_0_o {
+> 	COW_UIModelLogin___c__DisplayClass197_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass197_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass201_0_Fields {
+  	struct System_String_o* advertising_id;
+  	struct System_Collections_Generic_Dictionary_string__string__o* parameters;
+  	struct System_String_o* adidKey;
+  	struct System_String_o* eventName;
+  };
+> struct COW_UIModelLogin___c__DisplayClass201_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass201_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass201_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass201_0_o {
+> 	COW_UIModelLogin___c__DisplayClass201_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass201_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass219_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct proto_Login_CHMELGCOIGN_o* loginRes;
+  };
+> struct COW_UIModelLogin___c__DisplayClass219_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass219_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass219_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass219_0_o {
+> 	COW_UIModelLogin___c__DisplayClass219_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass219_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass252_0_Fields {
+  	struct System_Collections_Generic_List_int__o* installedIDs;
+  };
+> struct COW_UIModelLogin___c__DisplayClass252_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass252_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass252_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass252_0_o {
+> 	COW_UIModelLogin___c__DisplayClass252_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass252_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass265_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	int32_t newPlatform;
+  	struct System_Action_SDKBind_PlatformBindingInfo__o* __9__1;
+  };
+> struct COW_UIModelLogin___c__DisplayClass265_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass265_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass265_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass265_0_o {
+> 	COW_UIModelLogin___c__DisplayClass265_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass265_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_0_Fields {
+  	uint32_t blockType;
+  	struct COW_UISecondConfirmBigController_o* confirmWnd;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass274_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_0_o {
+> 	COW_UIModelLogin___c__DisplayClass274_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass274_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_1_Fields {
+  	struct System_String_o* customerLink;
+  	struct System_String_o* storeLink;
+> 	struct COW_UIModelLogin___c__DisplayClass274_0_o* CS___8__locals1;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_1_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_1_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass274_1_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass274_1_o {
+> 	COW_UIModelLogin___c__DisplayClass274_1_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass274_1_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass281_0_Fields {
+  	struct COW_UIModelAntiAddiction_o* modelAntiAddiction;
+  };
+> struct COW_UIModelLogin___c__DisplayClass281_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass281_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass281_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass281_0_o {
+> 	COW_UIModelLogin___c__DisplayClass281_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass281_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass282_0_Fields {
+  	struct COW_UIModelAntiAddiction_o* modelAntiAddiction;
+  };
+> struct COW_UIModelLogin___c__DisplayClass282_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass282_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass282_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass282_0_o {
+> 	COW_UIModelLogin___c__DisplayClass282_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass282_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass288_0_Fields {
+  	struct System_String_o* lang;
+  };
+> struct COW_UIModelLogin___c__DisplayClass288_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass288_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass288_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass288_0_o {
+> 	COW_UIModelLogin___c__DisplayClass288_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass288_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass294_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	int32_t choice;
+  	uint64_t accountId;
+  };
+> struct COW_UIModelLogin___c__DisplayClass294_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass294_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass294_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass294_0_o {
+> 	COW_UIModelLogin___c__DisplayClass294_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass294_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass297_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct System_Action_o* callback;
+  };
+> struct COW_UIModelLogin___c__DisplayClass297_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass297_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass297_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass297_0_o {
+> 	COW_UIModelLogin___c__DisplayClass297_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass297_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass300_0_Fields {
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct System_String_o* cmd;
+  };
+> struct COW_UIModelLogin___c__DisplayClass300_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass300_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass300_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass300_0_o {
+> 	COW_UIModelLogin___c__DisplayClass300_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass300_0_Fields fields;
+  };
+> struct COW_UIModelLogin___c__DisplayClass306_0_Fields {
+  	struct System_String_o* region;
+  };
+> struct COW_UIModelLogin___c__DisplayClass306_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+> struct COW_UIModelLogin___c__DisplayClass306_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin___c__DisplayClass306_0_VTable vtable;
+  };
+> struct COW_UIModelLogin___c__DisplayClass306_0_o {
+> 	COW_UIModelLogin___c__DisplayClass306_0_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin___c__DisplayClass306_0_Fields fields;
+  };
+> struct COW_UIModelLogin__GotoLobbyV2Coroutine_d__213_Fields {
+  	int32_t __1__state;
+  	Il2CppObject* __2__current;
+> 	struct COW_UIModelLogin_o* __4__this;
+  	struct System_String_o* _httpLoginGetSplash_5__2;
+  };
+> struct COW_UIModelLogin__GotoLobbyV2Coroutine_d__213_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_System_Collections_Generic_IEnumerator_System_Object__get_Current;
+  	VirtualInvokeData _5_System_IDisposable_Dispose;
+  	VirtualInvokeData _6_MoveNext;
+  	VirtualInvokeData _7_System_Collections_IEnumerator_get_Current;
+  	VirtualInvokeData _8_System_Collections_IEnumerator_Reset;
+  };
+> struct COW_UIModelLogin__GotoLobbyV2Coroutine_d__213_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin__GotoLobbyV2Coroutine_d__213_VTable vtable;
+  };
+> struct COW_UIModelLogin__GotoLobbyV2Coroutine_d__213_o {
+> 	COW_UIModelLogin__GotoLobbyV2Coroutine_d__213_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin__GotoLobbyV2Coroutine_d__213_Fields fields;
+  };
+> struct COW_UIModelLogin_Fields : GCommon_UIBaseModel_Fields {
+  	uint32_t m_CurRequestLoginDelayCallID;
+  	int32_t m_DownLoadType;
+  	bool IsSendingChooseNewbieChoice;
+  	bool FirstTimeInLobby;
+  	bool m_HasEverLoggedIn;
+  	bool ffantihackGPPProcessed;
+  	struct System_String_o* loginRegion;
+  	struct System_String_o* IpCity;
+  	struct System_String_o* IpSubdivision;
+  	struct System_String_o* IpRegion;
+  	struct System_String_o* AgoraEnvironment;
+  	struct System_Collections_Generic_List_AndroidApplicationToDetectDesc__o* m_AndroidApplicationToDetectDescs;
+  	struct System_Collections_Generic_Dictionary_uint__WorkshopFriendStatesSwitchDesc__o* m_WorkshopFriendStatesSwitchDescs;
+  	struct System_Threading_Thread_o* m_GenerateLibMapAndMemThread;
+  	struct System_Threading_Thread_o* m_ResetScheduleNotifyThread;
+  	struct COW_RegFormObserverBR_o* m_RegFormObserverBR;
+  };
+> struct COW_UIModelLogin_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  	VirtualInvokeData _4_Init;
+  	VirtualInvokeData _5_NotifyDataChanged;
+  	VirtualInvokeData _6_GetModelType;
+  	VirtualInvokeData _7_LoginOffline;
+  	VirtualInvokeData _8_Login;
+  	VirtualInvokeData _9_Logout;
+  	VirtualInvokeData _10_SceneChange;
+  	VirtualInvokeData _11_OnCleanup;
+  	VirtualInvokeData _12_OnSceneChange;
+  	VirtualInvokeData _13_ClearCache;
+  };
+> struct COW_UIModelLogin_c {
+  	Il2CppClass_1 _1;
+> 	struct COW_UIModelLogin_StaticFields* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+> 	COW_UIModelLogin_VTable vtable;
+  };
+> struct COW_UIModelLogin_o {
+> 	COW_UIModelLogin_c *klass;
+  	void *monitor;
+> 	COW_UIModelLogin_Fields fields;
+  };
+> struct COW_UIModelLogin_StaticFields {
+  	struct System_String_o* EnableBugReporter;
+  	uint8_t LastHotUpdateErrorType;
+  	bool IsOfflineSkipVersionCheck;
+  	bool IsSkipPopEnteringOfflineScene;
+  	struct System_Collections_Generic_Dictionary_byte__string__o* m_DictLoginErrorMessage;
+  	struct System_Char_array* OPEN_ID_SEPARATOR;
+  	struct System_String_o* PREFS_KEY_RECHECK_APPEAL;
+  };
+  struct COW_RegFormObserverBR___c_Fields {
+  };
+  struct COW_RegFormObserverBR___c_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+  struct COW_UIModelSetting___c__DisplayClass86_0_Fields {
+> 	struct COW_UIModelLogin_o* modelLogin;
+  };
+  struct COW_UIModelSetting___c__DisplayClass86_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+  struct COW_UIModelSetting___c__DisplayClass86_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+  	COW_UIModelSetting___c__DisplayClass86_0_VTable vtable;
+  };
+  struct COW_UIModelSetting___c__DisplayClass86_0_o {
+  struct COW_UIModelSetting___c__DisplayClass87_0_Fields {
+  	struct COW_UIModelSetting_o* __4__this;
+> 	struct COW_UIModelLogin_o* modelLogin;
+  };
+  struct COW_UIModelSetting___c__DisplayClass87_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	VirtualInvokeData _3_ToString;
+  };
+  struct COW_UIModelSetting___c__DisplayClass87_0_c {
+  	Il2CppClass_1 _1;
+  	void* static_fields;
+  	Il2CppRGCTXData* rgctx_data;
+  	Il2CppClass_2 _2;
+  	COW_UIModelSetting___c__DisplayClass87_0_VTable vtable;
+  };
+  struct COW_UIModelSetting___c__DisplayClass87_0_o {
+  	uint32_t m_BGAsyncLoadTicket;
+  	struct COW_UIHudReconnectTipsController_o* m_ReconnectTipsController;
+> 	struct COW_UILoginController_o* m_LoginController;
+  	struct COW_UILobbyV2Controller_o* m_LobbyV2Controller;
+  	struct GCommon_UIPopupWindowController_o* m_OTPWindowCtrl;
+  	bool m_HasPausedApplication;
+  	uint64_t m_startLobbyTime;
+  	struct UnityEngine_GameObject_o* HCItemLight;
+  	struct UnityEngine_GameObject_o* TakePhotoItemLight;
+  	struct COW_UIHudSceneEditOfflineModeMainController_o* m_HudSceneEditOfflineModeMainController;
+  	struct COW_UICSBanPickWindowController_o* m_BanPickWindow;
+  	struct COW_UIMatchMakingWatingController_o* m_MatchmakingWaiting;
+  	struct COW_UIMatchMakingWaitingOptimizedController_o* m_MatchmakingWaitingOptimized;
+  	struct COW_UIRoomMatchMakingWaitingController_o* m_RoomMatchMaking;
+  	struct COW_UIRoomHangupWaitingController_o* m_RoomHangup;
+  	struct UnityEngine_GameObject_o* m_RoomHangupContainer;
+  	uint32_t m_AutoMatchGroupingTime;
+  	uint32_t m_AutoMatchMakingTime;
+  	InvokerMethod invoker_method;
+  	const char* name;
+> 	COW_UIModelLogin_c *klass;
+  	const Il2CppType *return_type;
+  	const Il2CppType** parameters;
+  	const MethodInfo_7A0089C_RGCTXs* rgctx_data;
+  	union
+  	{
+  		const void* genericMethod;
+  		const void* genericContainerHandle;
+  	};
+  	uint32_t token;
+  	uint16_t flags;
+  	uint16_t iflags;
+  	uint16_t slot;
+  	uint8_t parameters_count;
+  	uint8_t bitflags;
+  };
+  	InvokerMethod invoker_method;
+  	const char* name;
+> 	COW_UIModelLogin_c *klass;
+  	const Il2CppType *return_type;
+  	const Il2CppType** parameters;
+  	const MethodInfo_7A00900_RGCTXs* rgctx_data;
+  	union
+  	{
+  		const void* genericMethod;
+  		const void* genericContainerHandle;
+  	};
+  	uint32_t token;
+  	uint16_t flags;
+  	uint16_t iflags;
+  	uint16_t slot;
+  	uint8_t parameters_count;
+  	uint8_t bitflags;
+  };
+
+

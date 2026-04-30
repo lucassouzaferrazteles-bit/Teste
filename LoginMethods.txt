@@ -1,0 +1,51 @@
+﻿
+  	struct System_Text_StringBuilder_o* inst_string_builder;
+  	bool pretty_print;
+> 	bool validate;
+  	struct System_IO_TextWriter_o* writer;
+  	bool unicode;
+  	bool omit_default_value;
+  };
+  struct LitJson_JsonWriter_VTable {
+  	struct System_Text_StringBuilder_o* inst_string_builder;
+  	bool pretty_print;
+> 	bool validate;
+  	struct System_IO_TextWriter_o* writer;
+  };
+  struct FFVoice_JsonWriter_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	uint32_t httpOp;
+  	int32_t channel;
+> 	bool login;
+  };
+  struct COW_UIModelLadderMatch___c__DisplayClass261_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  struct COW_UIModelLadderMatch___c__DisplayClass264_0_Fields {
+  	struct COW_UIModelLadderMatch_o* __4__this;
+> 	bool login;
+  };
+  struct COW_UIModelLadderMatch___c__DisplayClass264_0_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+  	VirtualInvokeData _2_GetHashCode;
+  	struct System_String_o* publicId;
+  	bool normalize;
+> 	bool validate;
+  	bool supportNamespaces;
+  	bool v1Compat;
+  	struct System_Char_array* chars;
+  	int32_t charsUsed;
+  	int32_t curPos;
+  struct UnityEngine_ContextMenu_Fields : System_Attribute_Fields {
+  	struct System_String_o* menuItem;
+> 	bool validate;
+  	int32_t priority;
+  };
+  struct UnityEngine_ContextMenu_VTable {
+  	VirtualInvokeData _0_Equals;
+  	VirtualInvokeData _1_Finalize;
+
+
